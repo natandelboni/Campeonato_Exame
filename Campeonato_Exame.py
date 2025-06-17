@@ -231,7 +231,7 @@ class Campeonato:
         for nome, stats in self.estatisticas.items():
             print(f"{nome}: Gols: {stats['gols']}, Assistências: {stats['assistencias']}, Cartões: {stats['cartoes']}")
 
-# Exemplo de menu de uso:
+
 if __name__ == "__main__":
     camp = Campeonato()
     while True:
